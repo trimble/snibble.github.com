@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>My stuff</title>
-</head>
+---
+layout: default
+title: This is how we do it
+---
 
-<body>
-<h1>Hello world</h1>
-</body>
-</html>
+<div id="home">
+  <h2>Blog Posts</h2>
+  <ul class="posts">
+    {% for post in site.categories.blog %}
+      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2>Book Writeups</h2>
+  <ul class="posts">
+    {% for post in site.categories.writeup %}
+      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
