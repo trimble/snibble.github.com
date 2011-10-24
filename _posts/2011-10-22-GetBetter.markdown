@@ -11,7 +11,7 @@ Now that all those evil, communicable folks who were here just trying to get us 
 
 Getting better requires a lot of things: motivation, practice, evaluation, etc. And there are plenty of books and blogs about each and every one of those. But, right now, I'm most interested in the idea that getting better requires that one realize there's some _better_ to be _gotten_. (For example, I'm keenly aware that I could get better at expressing the idea in that last sentence.)
 
-Have you ever woken up one morning and realized that you've been in a rut and haven't been getting better? Yes? Good! That means you have the ability to recognize that there's _better_ out there. Now you just need to apply what I hereby dub "continuous betterment". Think [continuous integration](jenkins-ci.org) meets [Stuart Smalley](http://en.wikipedia.org/wiki/Stuart_Smalley).
+Have you ever woken up one morning and realized that you've been in a rut and haven't been getting better? Yes? Good! That means you have the ability to recognize that there's _better_ out there. Now you just need to apply what I hereby dub "continuous betterment". Think [continuous integration](http://jenkins-ci.org) meets [Stuart Smalley](http://en.wikipedia.org/wiki/Stuart_Smalley).
 
 10 (this will make sense later)
 
