@@ -1,3 +1,10 @@
+---
+layout: post
+title: I don't have time...
+categories:
+- blog
+---
+
 I don't have time...
 
 ...to worry about politics...but I care about the future of our nation
