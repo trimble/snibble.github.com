@@ -1,0 +1,35 @@
+---
+layout: post
+title: Good Idea. Bad Idea.
+date: 2012-11-05 00:00:00
+categories:
+- blog
+---
+
+##Good Idea: Asking engineers to estimate how long something will take.
+##Bad Idea: Believing them.
+
+There are <a href="http://www.amazon.com/gp/product/B000SEFIT6/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000SEFIT6&linkCode=as2&tag=snibble-20">tomes</a><img src="http://www.assoc-amazon.com/e/ir?t=snibble-20&l=as2&o=1&a=B000SEFIT6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> <a href="http://www.amazon.com/gp/product/B0043EWTMG/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0043EWTMG&linkCode=as2&tag=snibble-20">about</a><img src="http://www.assoc-amazon.com/e/ir?t=snibble-20&l=as2&o=1&a=B0043EWTMG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+ <a href="http://www.amazon.com/gp/product/0071483004/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0071483004&linkCode=as2&tag=snibble-20">estimation</a><img src="http://www.assoc-amazon.com/e/ir?t=snibble-20&l=as2&o=1&a=0071483004" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+ and <a href="http://www.amazon.com/gp/product/B004UAAL82/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004UAAL82&linkCode=as2&tag=snibble-20">planning</a><img src="http://www.assoc-amazon.com/e/ir?t=snibble-20&l=as2&o=1&a=B004UAAL82" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+ that advise that "the people doing the work should do the estimation". I agree. Having managers estimate how long something will take engineers to do and then holding the engineers to it is a recipe for disaster.  
+
+However, there's caution to be advised. I think some pitfalls lay ahead of the weary traveller who asks an engineer for estimates and then believes them...  
+
+##Best Case Scenario Mindset
+We've all had this problem in the past. You think about how long it will take to do something and you start imagining the course of the work:  
+> "First, I create the template, that's easy. Next, I start filling in the pieces I already know, that's easy. While I do that, I'll have my product owner think about the answers to the questions I sent earlier, she should be able to answer those easily. When I get her answers, I'll just plug those into the template, that's easy. Then, all I have to do is test it all out. This will be easy! I should be able to get it done in a few days."  
+
+...except what happens when the questions you asked the product owner don't result in answers; rather, they raise more questions? What do you do when the template works out really well...almost...and has to be rewritten in the eleventh hour? What about when the tests reveal that you really didn't understand that one dark corner as well as you assumed that you did?  
+
+If everything goes well, your estimate is fine...except everything never goes well. The key phrase to listen for yourself saying here is "should be able to". An estimate is not how long you think something _should_ take...it's how long you think something _will_ take.
+
+##Limited Field of Vision
+This is a fatal flaw that engineers sometimes can't help but have...especially engineers working in highly regulated industries or other places where developing the code is but a tiny piece of delivering the product:  
+> "How long will it take to finish the image processing system? Not long. We're almost done with all the image correction algorithms. They look really good. Alice has one last task to finish up on the auto-stitcher, and Bob just needs to test his crop stuff after she gets done. I'd say we're done coding by this time next week. Then it's just off to the system testers and regulatory. No sweat we can meet your deadline."
+
+...except what happens when one of the system tests turns up an intermittent test failure that takes a month to really sort out? What if there's a bottleneck in the QA department and your project sits there waiting on some approvals for two weeks longer than expected?
+
+Your estimate may be fine for the _coding_ phase of the project...but you're not considering the things that come downstream. Unless you're really doing <a href="http://www.amazon.com/gp/product/B003YMNVC0/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003YMNVC0&linkCode=as2&tag=snibble-20">continuous delivery</a><img src="http://www.assoc-amazon.com/e/ir?t=snibble-20&l=as2&o=1&a=B003YMNVC0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> well, there's probably a lot more to getting your software "done" than just finishing the coding. One trigger that should send up the red flag here is "then it's just off to..." Phrases that trivialize any steps in the delivery process should perk your ears up and make you think about the old adage "'Simple' is the word you use for work that someone else is going to do."  
+
+I'm sure there are more identifiable patterns for underestimating how much work is left. I'll probably explore some more in the future. Let me know your favorite ways to screw up estimations.
